@@ -1,0 +1,14 @@
+version: '3'
+
+services:
+  llvm-lab:
+    build: ./
+    volumes:
+      - ./share:/home/llvm-lab:ro
+      - ./xinetd:/etc/xinetd.d/llvm-lab:ro
+    cap_add:
+      - SYS_PTRACE
+    ports:
+      - "30208:10101"
+    expose:
+      - "10101"
