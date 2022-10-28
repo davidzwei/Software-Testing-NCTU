@@ -21,3 +21,4 @@ $ cd /home/llvm-lab/share
 $ make
 $ ./target 1
 ```
+- Modify `llvm-lab-pass.cc`
