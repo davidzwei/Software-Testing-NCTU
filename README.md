@@ -1,5 +1,5 @@
 # Software_Testing_NCTU
-2022 software testing homework 
+2022 Spring NCTU Software Testing Homework 
 
 [homework source](https://github.com/a4865g/NYCU-Software-Testing-2022)
 
